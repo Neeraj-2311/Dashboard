@@ -14,7 +14,7 @@ export const Auth = ({session}) => {
     });
 
     async function handleGoogleSignIn(){
-        signIn("google", {  callbackUrl: '/dashboard'})
+        signIn("google", {  callbackUrl: 'https://dashboard-next-neeraj.netlify.app/dashboard'})
     }
 
     const Register = () => {
